@@ -70,8 +70,15 @@ def save_reception_by_year(classification_data):
     axis.grid(axis="y", alpha=0.25)
     handles, labels = axis.get_legend_handles_labels()
     count_handles, count_labels = count_axis.get_legend_handles_labels()
-    axis.legend(handles + count_handles, labels + count_labels, loc="best")
-    figure.tight_layout()
+    figure.legend(
+        handles + count_handles,
+        labels + count_labels,
+        loc="upper center",
+        bbox_to_anchor=(0.5, 1.02),
+        ncol=2,
+        frameon=False,
+    )
+    figure.tight_layout(rect=(0, 0, 1, 0.96))
     return figure, "high_reception_by_release_year.png"
 
 
