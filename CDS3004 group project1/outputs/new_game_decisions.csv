@@ -1,0 +1,6 @@
+profile_name,price,platform_count,release_year,game_age_years,cluster_id,probability_highly_rated,predicted_is_highly_rated,recommendation
+Free indie puzzle casual,0.0,1,2019,0,1,0.755,1,promote
+Low-cost action RPG,4.99,3,2018,1,1,0.645,1,promote
+Mid-priced strategy simulation,14.99,2,2019,0,1,0.5,1,review
+Premium sports racing title,59.99,2,2017,2,0,0.435,0,review
+Premium VR adventure title,29.99,1,2019,0,0,0.56,1,review
